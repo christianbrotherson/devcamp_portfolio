@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/christianbrotherson/view_tool_brotherson
+  revision: 9b8a42ba0b7c6f2d93383dbfcacb832f70b86d59
+  specs:
+    view_tool_brotherson (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -200,6 +206,7 @@ DEPENDENCIES
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
+  view_tool_brotherson!
   web-console (>= 3.3.0)
 
 BUNDLED WITH
