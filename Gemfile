@@ -58,3 +58,5 @@ gem 'devise', '~> 4.2'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 gem 'view_tool_brotherson'
+
+gem 'petergate', '~> 1.7'
