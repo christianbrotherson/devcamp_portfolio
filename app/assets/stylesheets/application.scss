@@ -174,9 +174,9 @@ body {
   color: black;
 }
 
-.register-text{
-    text-align: right;
-  }
+.register-text {
+  text-align: right;
+}
 
 .login > .card {
   width: 22rem;
@@ -197,7 +197,7 @@ body {
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: -100%;
+  z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background: image-url('home_bg.png') no-repeat;
@@ -210,38 +210,13 @@ body {
 
 .tech-news {
   color: black;
-  margin: 10px;
-}
-
-.tech-news a {
-  color: green;
+  margin: 20px;
 }
 
 .tech-news > .card {
   padding: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.tech-news a {
+  color: green;
+}
