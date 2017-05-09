@@ -1,5 +1,5 @@
 <div class="app-card-container">
-  <div class="card">
+  <div>
     <h1>About Me</h1>
 
     <hr>
@@ -13,7 +13,7 @@
               <h4><%= skill.title %></h4>
               <div class="progress">
                 <div
-                  class="progress-bar progress-bar-striped bg-warning"
+                  class="progress-bar progress-bar-striped bg-primary"
                   role="progressbar"
                   aria-valuenow="<%= skill.percent_utilized %>"
                   aria-valuemax="100"
@@ -64,14 +64,15 @@
 
           <div class="collapse" id="education">
             <div class="card card-block">
-              School 1
+              <h4>Bottega Tech</h4>
+              <p>Completed accelerated Full Stack development courses.</p>
             </div>
-            <div class="card card-block">
+            <!-- <div class="card card-block">
               School 2
             </div>
             <div class="card card-block">
               School 3
-            </div>
+            </div> -->
           </div>
         </p>
       </div>
