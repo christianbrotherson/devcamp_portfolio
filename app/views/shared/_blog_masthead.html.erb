@@ -1,11 +1,11 @@
 <div class="blog-header">
   <div class="container">
     <h1 class="blog-title">My Blog</h1>
-    <p class="lead blog-description">Write you own description in _blog_masthead :)</p>
+    <p class="lead blog-description">Some deeper thoughts...</p>
     <span>
-      <%= link_to 'Write A New Blog', new_blog_path if logged_in?(:site_admin) %>
+      <%= link_to 'Write A New Blog ', new_blog_path if logged_in?(:site_admin) %> |
     </span>
-    <span class="btn btn-secondary">
+    <span>
       <%= link_to 'Topics', topics_path %>
     </span>
   </div>
